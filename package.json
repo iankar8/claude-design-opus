@@ -1,0 +1,19 @@
+{
+  "name": "claude-design-opus",
+  "version": "0.1.0",
+  "description": "A small Claude Code wrapper for delegating scoped frontend and design work to Opus.",
+  "type": "module",
+  "bin": {
+    "claude-design-opus": "./scripts/claude-design-opus.mjs"
+  },
+  "files": [
+    "scripts",
+    "SKILL.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
