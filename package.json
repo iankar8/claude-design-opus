@@ -6,6 +6,11 @@
   "bin": {
     "claude-design-opus": "./scripts/claude-design-opus.mjs"
   },
+  "scripts": {
+    "smoke": "node scripts/smoke.mjs",
+    "test": "npm run smoke",
+    "pack:dry": "npm pack --dry-run"
+  },
   "files": [
     "scripts",
     "SKILL.md",
